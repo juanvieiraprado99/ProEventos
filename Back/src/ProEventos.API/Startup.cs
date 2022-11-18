@@ -30,6 +30,7 @@ namespace ProEventos.API
         {
             services.AddDbContext<DataContext>(
                 context => context.UseSqlite(Configuration.GetConnectionString("Default"))
+                // context => context.UseNpgsql("Server=containers-us-west-119.railway.app;Database=railway;Port=6299;User Id=postgres;Password=vhYZNplhqiTCkzMbtNXd;")
             );
             services.AddControllers();
             services.AddCors();
