@@ -8,6 +8,7 @@ const SHARED_FORMS_MODULES = [FormsModule, ReactiveFormsModule];
 // Components
 import { TituloComponent } from './titulo/titulo.component';
 
+
 const SHARED_COMPONENTS = [
   TituloComponent,
 ];
